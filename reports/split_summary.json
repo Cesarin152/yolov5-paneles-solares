@@ -1,0 +1,49 @@
+{
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.2,
+    "test": 0.1
+  },
+  "classes": [
+    "cover",
+    "crack",
+    "dust",
+    "normal"
+  ],
+  "splits": {
+    "train": {
+      "groups": 626,
+      "images": 1598,
+      "boxes": 2383,
+      "boxes_by_class": {
+        "cover": 244,
+        "crack": 918,
+        "dust": 809,
+        "normal": 412
+      }
+    },
+    "val": {
+      "groups": 181,
+      "images": 456,
+      "boxes": 656,
+      "boxes_by_class": {
+        "cover": 65,
+        "crack": 246,
+        "dust": 229,
+        "normal": 116
+      }
+    },
+    "test": {
+      "groups": 90,
+      "images": 226,
+      "boxes": 336,
+      "boxes_by_class": {
+        "cover": 40,
+        "crack": 116,
+        "dust": 125,
+        "normal": 55
+      }
+    }
+  }
+}

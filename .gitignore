@@ -1,0 +1,9 @@
+.venv/
+vendor/
+runs/
+smoke_test/
+*.pt
+*.cache
+__pycache__/
+.ipynb_checkpoints/
+solar_panels_runtime.yaml

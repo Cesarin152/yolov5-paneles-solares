@@ -1,0 +1,55 @@
+{
+  "dataset": "data/solar_panels",
+  "classes": [
+    "cover",
+    "crack",
+    "dust",
+    "normal"
+  ],
+  "splits": {
+    "train": {
+      "images": 1598,
+      "labels": 1598,
+      "boxes": 2383,
+      "boxes_by_class": {
+        "cover": 244,
+        "crack": 918,
+        "dust": 809,
+        "normal": 412
+      },
+      "missing_labels": [],
+      "missing_images": [],
+      "invalid_lines": []
+    },
+    "val": {
+      "images": 456,
+      "labels": 456,
+      "boxes": 656,
+      "boxes_by_class": {
+        "cover": 65,
+        "crack": 246,
+        "dust": 229,
+        "normal": 116
+      },
+      "missing_labels": [],
+      "missing_images": [],
+      "invalid_lines": []
+    },
+    "test": {
+      "images": 226,
+      "labels": 226,
+      "boxes": 336,
+      "boxes_by_class": {
+        "cover": 40,
+        "crack": 116,
+        "dust": 125,
+        "normal": 55
+      },
+      "missing_labels": [],
+      "missing_images": [],
+      "invalid_lines": []
+    }
+  },
+  "valid": true,
+  "errors": []
+}

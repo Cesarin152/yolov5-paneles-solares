@@ -1,0 +1,7 @@
+path: /content/YoloActividad3/data/solar_panels
+train: images/train
+val: images/val
+test: images/test
+
+nc: 4
+names: [cover, crack, dust, normal]
